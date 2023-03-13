@@ -1,7 +1,7 @@
 ## Intermediate JavaScript Class
 
 
-*CREDIT*
+### CREDIT / Reference
 
 [https://www.codecademy.com/learn/build-interactive-websites/modules/web-dev-interactive-websites/cheatsheet](https://www.codecademy.com/learn/build-interactive-websites/modules/web-dev-interactive-websites/cheatsheet)
 
