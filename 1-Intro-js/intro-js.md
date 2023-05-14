@@ -24,7 +24,7 @@ console.log("20");
 
 ### Number
 ```javascript
-Any number like 5, 2.5, 5678
+Any number like 5, 2.5, 5678, 1/2
 console.log(23);
 console.log(55);
 ```
@@ -96,6 +96,9 @@ output: I am enjoying my JS classes with Marusoft Technology
 .toLowerCase()
 .startWith()
 ```
+
+### JavaScript
+`console.log()` is for printing out JavaScript expression
 
 ### Variable
 It is a container of related item.

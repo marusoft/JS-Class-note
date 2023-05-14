@@ -1,8 +1,9 @@
 /* ===== String Data Type ====== */
-console.log("Node is successfully installed!!!");
-console.log("I am so excited to learn JS");
-console.log("I am super excited" + "to start learning js programming");
-console.log("2" + "7"); // concantenation
+// console.log("Node is successfully installed!!!");
+// console.log("I am so excited to learn JS");
+// console.log("I am super excited" + "to start learning js programming");
+// console.log("2" + "7"); // concantenation
+console.log("MY first console", "I am so excited to learn JavaScript");
 
 /* ====== Number Data Type ===== */
 console.log(23);
