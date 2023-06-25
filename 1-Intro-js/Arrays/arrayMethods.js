@@ -1,15 +1,14 @@
 // .shift()
 // .unshift()
-// .splice()
-// .find()
 // .pop()
+// .push()
 // .split()
-// .includes()
 // .slice()
+// .splice()
 // .join()
 // .reverse()
-// .every()
-// .some()
+// .includes()
+
 
 const myFriend = [
   "alimi",
