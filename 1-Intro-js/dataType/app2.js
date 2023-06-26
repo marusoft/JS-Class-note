@@ -312,9 +312,7 @@ switch (myDiceValue) {
     break;
   case 6:
     console.log(`${myDiceValue} is the current dice face`);
-
     break;
-
   default:
     console.log("Try to roll the dice to know the current dice face");
     break;
