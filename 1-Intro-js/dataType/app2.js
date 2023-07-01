@@ -140,7 +140,7 @@ console.log("Compare State1:", myState.length > myStudentState.length);
 console.log("Compare State2:", myState.length < myStudentState.length);
 console.log("Compare State3:", myState.length === myStudentState.length);
 console.log("Compare State4:", myState.length !== myStudentState.length);
-console.log("Compare State4:", myState.length >= myStudentState.length);
+console.log("Compare State5:", myState.length >= myStudentState.length);
 console.log("Compare State6:", myState.length <= myStudentState.length);
 
 /**
@@ -155,6 +155,29 @@ console.log("Compare State6:", myState.length <= myStudentState.length);
  * When using the || operator, only one of the conditions must evaluate to true for the overall statement to evaluate to true.
  * The ! not operator reverses, or negates, the value of a boolean:
  */
+
+// AND OPERATOR
+
+let myNumber = 11;
+let theOtherNumber = 17;
+console.log("Comparing with AND OPERATOR", (myNumber && theOtherNumber) > 10);
+
+// OR OPERATOR
+
+let myString = "gsgsssjaakakk";
+let otherString = "hhhshhshsskjsjj";
+let compareWithOrOperator = (myString.length || otherString.length) === 10;
+console.log("compareWithOrOperator", compareWithOrOperator);
+
+// Not operator !
+
+let myComment = true;
+const changeMyComment = !myComment;
+console.log("changeMyComment", changeMyComment);
+
+let myResponse = false;
+let changeMyResponse = !myResponse;
+console.log("changeMyResponse", changeMyResponse);
 
 // Control Flow
 
@@ -316,4 +339,39 @@ switch (myDiceValue) {
   default:
     console.log("Try to roll the dice to know the current dice face");
     break;
+}
+
+/**
+ * Ternary Operator/Syntax
+ * condition ? "do something" : "do another thing"
+ */
+
+const numOfDaysInAWeek = 7;
+
+const myActualAnswer =
+  numOfDaysInAWeek <= 7
+    ? "These are actual days in a week"
+    : "These are not the actual days in week";
+
+console.log("myActualAnswer =", myActualAnswer);
+
+/**
+ * Function
+ */
+
+// Function declaration
+function functionName() {
+  // function logic
+}
+
+// function expression
+
+let myTask = function(){
+
+}
+
+// arrow function
+
+const mySchoolExam = () => {
+
 }
