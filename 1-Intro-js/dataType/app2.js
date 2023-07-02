@@ -357,6 +357,7 @@ console.log("myActualAnswer =", myActualAnswer);
 
 /**
  * Function
+ * reusable piece of code to perform a specific task
  */
 
 // Function declaration
@@ -365,13 +366,68 @@ function functionName() {
 }
 
 // function expression
-
-let myTask = function(){
-
-}
+let myTask = function () {};
 
 // arrow function
+// new of declaring function
+const mySchoolExam = () => {};
 
-const mySchoolExam = () => {
+/**
+ * Calling function
+ * the function name followed by parenthesis
+ * additionTwoNumber()
+ */
 
+let additionTwoNumber = () => {};
+additionTwoNumber();
+
+/**
+ * passing data to function
+ */
+
+const convertToString = (parameters) => {};
+convertToString(arguments);
+
+/**
+ * logging the logic of a function
+ */
+
+let subtractNumbers = () => {};
+console.log(subtractNumbers());
+
+/**
+ * Return keyword returns the logic
+ * inside the body of function
+ */
+
+const multiplyNumbers = (a, b) => {
+  return a * b;
+};
+
+/**
+ * Example 1
+ * A function to add two numbers
+ */
+
+let addNum = (a, b) => {
+  return a + b;
+};
+const result = addNum(4, 7);
+console.log("The result of add 4 and 7 = ", result); // 11
+
+/**
+ * Example 2
+ * A function to multiply two numbers
+ */
+let multiplyNum = (x, y) => {
+  return x * y;
+};
+console.log(multiplyNum(3, 4));
+
+/**
+ * Example 3
+ */
+const sayWelcome = (name) => {
+  return `Welcome home ${name}`
 }
+console.log(sayWelcome("Alimi"));
